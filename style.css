@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    color: #333;
+
+}
+header {
+    background-color: purple;
+    color: #ecf0f1;
+    padding: 20px;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    transition: color 0.3 ease-in-out;
+}
+nav :hover {
+    color: purple;
+}
+main {
+    padding: 20px;
+}
+article {
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+h2 {
+    color: purple;
+}
+h3 {
+    color: #e74c3c;
+}
+p {
+    color: #555;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: purple;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+
+}
+button {
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out ;
+}
+button :hover {
+    background-color: purple;
+}
+
+.product-card {
+    background-color: #fff;
+}
+.product-card {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+}
+.product-card :hover {
+    transform: scale(1.05);
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+.product-details {
+    padding: 20px;
+}
+.product title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.product-description {
+    color: #555;
+    margin-bottom: 15px;
+
+}
+.product-price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.product-price {
+    margin-bottom: 15px;
+}
+.buy-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.buy-button :hover {
+    background-color: #2980b9;
+}
+article#About figure {
+    margin-top: 20px;
+    text-align: center;
+
+}
+article#About img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+article#About p {
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+}
